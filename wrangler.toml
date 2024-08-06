@@ -66,11 +66,11 @@ compatibility_flags = ["nodejs_compat"]
 # binding = "MY_HYPERDRIVE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-# Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
-# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#kv-namespaces
-# [[kv_namespaces]]
-# binding = "MY_KV_NAMESPACE"
-# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ #Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
+ #Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#kv-namespaces
+ [[kv_namespaces]]
+ binding = "CACHE"
+ id = "097aea6106894049a4251a6011be7df8"
 
 # Bind an mTLS certificate. Use to present a client certificate when communicating with another service.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#mtls-certificates
